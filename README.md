@@ -1,39 +1,32 @@
-Smart Network Intrusion Detection System (NIDS)
+🛡️ Smart Network Intrusion Detection System (NIDS)
+📌 About
 
-A lightweight Network Intrusion Detection System built using Python that captures live network packets, analyzes traffic behavior, and detects suspicious activities like port scanning and unusual access patterns.
+A Python-based system that monitors live network traffic and detects suspicious activities like unusual IP behavior, port scanning, and unauthorized access attempts.
 
-🚀 Features
-📡 Live network packet sniffing
-🧠 Rule-based intrusion detection
-⚠️ Suspicious IP detection (anomaly tracking)
-🔐 SSH access attempt detection
-📝 Logging of security events (CSV format)
-💻 Simple CLI-based monitoring system
+🎯 Purpose
 
-🧱 Project Structure
-NIDS_Project/
-│
-├── main.py              # Entry point
-├── packet_sniffer.py    # Captures live packets
-├── detector.py          # Analyzes traffic & detects threats
-├── logger.py            # Logs events to CSV
-├── dashboard.py         # (Future enhancement - UI)
-├── alerts.py            # (Future enhancement - alerts system)
-└── logs.csv             # Stores detected events
+To analyze network packets in real time and identify potential security threats using rule-based detection techniques.
 
-⚙️ Requirements
-
-Make sure Python is installed:
-
-python --version
-
-Install dependencies:
-pip install scapy pandas flask matplotlib
-
+⚙️ Features
+Live packet capture
+IP traffic monitoring
+Suspicious activity detection
+Port scan detection
+SSH access attempt detection
+Event logging (CSV file)
 
 ▶️ How to Run
-Step 1: Open terminal in project folder
-cd NIDS_Project
-
-Step 2: Run the system
 python main.py
+
+🔐 Note
+Requires admin/root permission
+Use only on your own network or lab environment
+
+🧠 Working
+Captures network packets
+Analyzes traffic patterns
+Detects anomalies using rules
+Stores logs of suspicious events
+
+👨‍💻 Author
+Navaneetha Mera
